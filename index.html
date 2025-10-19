@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DR9 AI — Automação, IA e Soluções Digitais</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <audio id="start-sound" src="sounds/start.mp3"></audio>
+
+  <header class="topbar">
+    <div class="logo">DR9<span>AI</span></div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="actions">
+      <button id="sound-toggle">🔊</button>
+    </div>
+  </header>
+
+  <main id="inicio" class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Automação • IA • Soluções Digitais</h1>
+      <div class="buttons">
+        <a class="btn whatsapp" href="https://wa.me/message/JLUZNOGJKK4UK1" target="_blank">WhatsApp</a>
+        <a class="btn telegram" href="https://t.me/dr9iSuporte" target="_blank">Telegram</a>
+        <button class="btn suporte" id="abrir-chat">Suporte IA</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="chat" class="chat hidden">
+    <div class="chat-header">
+      <span>Suporte IA</span>
+      <button id="fechar-chat">✕</button>
+    </div>
+    <div class="chat-body" id="chat-body">
+      <div class="msg bot">Olá! Sou a IA DR9 — posso te ajudar com automação e licenças digitais?</div>
+    </div>
+    <form id="chat-form">
+      <input type="text" id="chat-input" placeholder="Digite sua mensagem..." />
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 DR9 AI — Automação, IA e Soluções Digitais</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
