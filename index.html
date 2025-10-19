@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DR9 IA — Automação & IA</title>
+<meta name="description" content="DR9 AI — Automação, Suporte IA e Pentest.">
+<link rel="icon" href="assets/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a2d9b6f9b0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="logo">DR9<span>AI</span></div>
+  <nav class="mainnav" id="mainnav">
+    <a href="#home">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+    <a href="#sobre">Sobre</a>
+  </nav>
+  <div class="socials">
+    <a class="sbtn" href="https://wa.me/message/JLUZNOGJKK4UK1" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a class="sbtn" href="https://t.me/dr9iSuporte" target="_blank" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+    <button class="sbtn" id="openSupport" aria-label="Abrir suporte"><i class="fa-solid fa-robot"></i></button>
+  </div>
+</header>
+
+<section id="home" class="hero" role="banner">
+  <div class="hero-inner">
+    <div class="hero-left" aria-hidden="true"></div>
+    <div class="hero-right">
+      <div class="typewrap" aria-hidden="false">
+        <h1 class="typed"><span id="typed-text"></span><span class="cursor">|</span></h1>
+        <p class="tagline">Automação • IA • Soluções Digitais</p>
+        <div class="ctas">
+          <a class="cta cta-whatsapp" href="https://wa.me/message/JLUZNOGJKK4UK1" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+          <a class="cta cta-telegram" href="https://t.me/dr9iSuporte" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
+          <button class="cta cta-support" id="supportMain"><i class="fa-solid fa-robot"></i> Suporte IA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section id="servicos" class="section">
+    <div class="container"><h2>Serviços</h2><p>Automação, integração IA, consultoria, pentest e suporte.</p></div>
+  </section>
+  <section id="contato" class="section">
+    <div class="container"><h2>Contato</h2><p>Para contato rápido use WhatsApp ou Telegram.</p></div>
+  </section>
+  <section id="sobre" class="section">
+    <div class="container"><h2>Sobre</h2><p>DR9 AI — soluções inteligentes para empresas e técnicos.</p></div>
+  </section>
+</main>
+
+<div id="chat" class="chat hidden" aria-hidden="true" role="dialog" aria-label="Suporte IA">
+  <header class="chat-header">
+    <strong>Suporte DR9 IA</strong>
+    <button id="closeChat" aria-label="Fechar chat">✕</button>
+  </header>
+  <div id="chatBody" class="chat-body" role="log" aria-live="polite"></div>
+  <form id="chatForm" class="chat-form" autocomplete="off">
+    <input id="chatInput" placeholder="Escreva sua pergunta..." autocomplete="off" />
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="links">
+      <a href="https://wa.me/message/JLUZNOGJKK4UK1" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://t.me/dr9iSuporte" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
+    </div>
+    <div class="copyright">© 2025 DR9 AI — Automação & Soluções Inteligentes</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
