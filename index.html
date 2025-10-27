@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DR9 AI - Inteligência Artificial Avançada</title>
+<link rel="icon" href="BD76D63B-30A4-4537-86FE-188471054ADC.jpeg" type="image/jpeg">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#0a0a0a;color:#f1f1f1;overflow-x:hidden}
+header{position:fixed;width:100%;top:0;left:0;background:rgba(0,0,0,0.4);backdrop-filter:blur(10px);z-index:1000;transition:background .3s,box-shadow .3s}
+header.scrolled{background:rgba(0,0,0,0.9);box-shadow:0 4px 20px rgba(0,0,0,0.3)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem}
+.logo{font-size:1.8rem;font-weight:bold;background:linear-gradient(90deg,#00f5ff,#ff009d);-webkit-background-clip:text;color:transparent;letter-spacing:1px;text-shadow:0 0 15px rgba(255,255,255,0.3)}
+.nav-links{list-style:none;display:flex;gap:2rem}
+.nav-links a{color:#fff;text-decoration:none;font-weight:500;position:relative;transition:color .3s}
+.nav-links a::after{content:"";position:absolute;width:0;height:2px;bottom:-4px;left:0;background:#00f5ff;transition:width .3s}
+.nav-links a:hover::after{width:100%}
+.hero{height:100vh;background:url('BD76D63B-30A4-4537-86FE-188471054ADC.jpeg') center center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.6)}
+.hero-content{position:relative;z-index:1;animation:fadeInUp 1.5s ease forwards}
+.hero-content h1{font-size:3.5rem;font-weight:bold;color:#fff;text-shadow:0 0 20px rgba(0,255,255,0.6);animation:textGlow 3s infinite alternate}
+.hero-content p{margin-top:1rem;font-size:1.2rem;opacity:0.9;animation:fadeIn 3s ease}
+.cta-button{margin-top:2rem;display:inline-block;background:linear-gradient(90deg,#00f5ff,#ff009d);color:white;padding:15px 40px;border-radius:50px;text-decoration:none;font-weight:bold;letter-spacing:1px;box-shadow:0 0 20px rgba(0,255,255,0.4);transition:transform .3s,box-shadow .3s}
+.cta-button:hover{transform:translateY(-4px);box-shadow:0 0 25px rgba(255,0,150,0.6)}
+.features{background:#0f0f0f;padding:100px 20px;text-align:center}
+.features h2{font-size:2.5rem;margin-bottom:3rem;color:#00f5ff}
+.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}
+.feature-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:15px;padding:2rem;transition:all .4s}
+.feature-card:hover{transform:translateY(-8px);box-shadow:0 0 30px rgba(0,255,255,0.2)}
+.feature-icon{font-size:3rem;margin-bottom:1rem;color:#ff009d}
+footer{background:#000;padding:60px 20px;text-align:center}
+footer p{margin-bottom:.8rem;color:#ccc}
+.contact-buttons{margin-top:2rem;display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap}
+.contact-buttons a{display:flex;align-items:center;gap:10px;padding:12px 25px;border-radius:50px;color:white;text-decoration:none;font-weight:bold;transition:transform .3s,opacity .3s}
+.whatsapp{background:#25D366}
+.telegram{background:#0088cc}
+.contact-buttons a:hover{transform:translateY(-4px);opacity:.9}
+.contact-buttons img{width:24px;height:24px}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes textGlow{from{text-shadow:0 0 15px #00f5ff}to{text-shadow:0 0 25px #ff009d}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@media(max-width:768px){.hero-content h1{font-size:2.4rem}.nav-links{display:none}}
+</style>
+</head>
+<body>
+<header id="header">
+<nav>
+<div class="logo">DR9.AI</div>
+<ul class="nav-links">
+<li><a href="#home">Início</a></li>
+<li><a href="#features">Recursos</a></li>
+<li><a href="#contact">Contato</a></li>
+</ul>
+</nav>
+</header>
+<section class="hero" id="home">
+<div class="hero-content">
+<h1>DR9 AI Intelligence</h1>
+<p>Automação, IA Local e Inovação em Segurança Digital</p>
+<a href="#contact" class="cta-button">Entrar em Contato</a>
+</div>
+</section>
+<section class="features" id="features">
+<h2>Recursos da DR9 AI</h2>
+<div class="features-grid">
+<div class="feature-card"><div class="feature-icon">⚙️</div><h3>Automação Inteligente</h3><p>Conecte APIs, bots e fluxos automáticos com IA local integrada.</p></div>
+<div class="feature-card"><div class="feature-icon">🧠</div><h3>IA Local Otimizada</h3><p>Rodando modelos avançados como Phi-3, StarCoder e DeepSeek com eficiência.</p></div>
+<div class="feature-card"><div class="feature-icon">🔐</div><h3>Segurança e Privacidade</h3><p>Infraestrutura protegida para manter seus dados e fluxos seguros.</p></div>
+</div>
+</section>
+<footer id="contact">
+<p>&copy; 2025 DR9 AI — Todos os direitos reservados</p>
+<p>Entre em contato com nossa equipe:</p>
+<div class="contact-buttons">
+<a href="https://wa.me/message/JLUZNOGJKK4UK1" target="_blank" class="whatsapp"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">WhatsApp</a>
+<a href="https://t.me/dr9iSuporte" target="_blank" class="telegram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram">Telegram</a>
+</div>
+</footer>
+<script>
+const header=document.getElementById('header');
+window.addEventListener('scroll',()=>{if(window.scrollY>100){header.classList.add('scrolled')}else{header.classList.remove('scrolled')}});
+</script>
+</body>
+</html>
