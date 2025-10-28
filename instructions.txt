@@ -1,0 +1,1 @@
+Place hero-ai.jpg in assets/images/ if you want to replace it.
