@@ -1,1 +1,0 @@
-console.log('DR9 AI Funnel ativo');
